@@ -4,10 +4,13 @@
 
 html {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .registration-bg {
   padding-top: 4em;
+  padding-bottom: 20em;
   height: 100%;
   background-image: image-url('island_dream.jpg');
   -moz-background-size: cover;
@@ -19,6 +22,7 @@ html {
 ///////////////////////// LOGIN /////////////////////////////////
 .login-bg {
   padding-top: 4em;
+  padding-bottom: 20em;
   height: 100%;
   background-image: image-url('freedom_waterfall.jpg');
   -moz-background-size: cover;
@@ -31,8 +35,15 @@ html {
 .log-in{
   margin-left: auto;
   margin-right: auto;
-  text-align:center;
+  text-align: center;
   border: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.input-lg {
+  width: 100%;
+  border-style: 0.5px solid black;
 }
 
 .panel {
@@ -44,6 +55,24 @@ html {
     text-align: center;
   }
 }
+
+.user_email {
+  padding-bottom: 1em;
+  border-style: none;
+}
+
+.user_password {
+  padding-bottom: 1em;
+}
+
+.user_password_confirmation {
+  padding-bottom: 1em;
+}
+
+.user_user_name {
+  padding-bottom: 1em;
+}
+
 
 
 .navbar {
@@ -132,6 +161,12 @@ body {
   .caption {
     margin-bottom: 7px;
   }
+
+
+  .caption-section {
+      width: 100%;
+  }
+
   .user-name {
     font-weight: 500;
     margin-right: 0.3em;
